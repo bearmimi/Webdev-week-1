@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h2>User Registration</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label>First Name: </label><input required><br/>
+                <label>Last Name: </label><input required><br/>
+                <label>Age: </label><input required type="number"><br/>
+                <label>Gender: </label><select><option>Male</option><option>Female</option><option>Others</option></select>
+                </select><br/>
+                <label>Profile picture: </label><input type="file">
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Account Details</legend>
+                <label>E-mail: </label><input required type="email"><br/>
+                <label>Password: </label><input required type="password"><br/>
+                <label>Role: </label>
+                <label><input required type="radio" name="role" value="admin"> Admin</label>
+                <label><input type="radio" name="role" value="user"> User</label><br/>
+            </fieldset>
+            <input type="checkbox">I agree to the Terms and Conditions<br/>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
